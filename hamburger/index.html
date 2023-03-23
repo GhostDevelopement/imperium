@@ -1,29 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburger Menu</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
-<body>
-    <header>
-    <nav>
-        <ul class='nav-bar'>
-            <li class='logo'><a href='#'><img src='./images/logo.png'/></a></li>
-            <input type='checkbox' id='check' />
-            <span class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-            </span>
-            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-        </ul>
-    </nav>
-    </header>
-</body>
-</html>
+<div class="wrapper">
+		<header>
+			<h1>Before Semicolon</h1>
+			<nav tabindex="0">
+				<ul role="menubar" aria-haspopup="true">
+
+					<li role="menuitem" aria-label="Home" class="active">
+						<a href="/">Home</a>
+					</li>
+
+					<li role="menuitem" aria-label="Videos" class="">
+						<a href="/videos">Videos</a>
+					</li>
+
+					<li role="menuitem" aria-label="Blog" class="">
+						<a href="/blog">Blog</a>
+					</li>
+
+					<li role="menuitem" aria-label="About" class="">
+						<a href="/about">About</a>
+					</li>
+
+					<li role="menuitem" aria-label="Contact" class="">
+						<a href="/contact">Contact</a>
+					</li>
+
+				</ul>
+			</nav>
+      <button class="close-mobile-menu">x</button>
+		</header>
+		<main>
+			<div class="banner">
+			</div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+		</main>
+		<footer></footer>
+	</div>
+
+<a href="https://youtu.be/xXze-haVm7g" style="position: fixed; bottom: 25px; left: 25px; color: #fff; text-shadow: 0 0 1px #222;" target="_blank">Watch Video Explanation</a>
